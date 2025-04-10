@@ -45,6 +45,11 @@ use exploit/windows/smb/psexec
 -set smbpass <password>
 (Can be tried using bruteforce wordlists)
 
+*IMPORTANT you can have samba on windows and linux* if the windows exploit failts try to seach for linux ones *target:Linux*
+
+For example:
+-linux/samba/is_known_pipename
+
 
 ### Jenkins (port 8000)
 
