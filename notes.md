@@ -153,5 +153,24 @@ Search in metasploit for an exploit (bolt example)
 -show options
 
 
+#### Durpal
+
+Run dirb to get directories
+
+- dirb htt://<target> /usr/share/wordlists/dirb/big.txt
+
+*check the version of durpal in the source code*
+
+Use metasploit 
+
+- use drupal_drupalgeddon2
+- exploit
+
+### MYSQL
+
+Try to connect to it via root and passwordless
+
+- mysql -u root -h <target> -p
+
 
 
